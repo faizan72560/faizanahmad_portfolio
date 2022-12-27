@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 // import React from 'react'
 
-import ReactJsAlert from "reactjs-alert"
+// import ReactJsAlert from "reactjs-alert"
 import { useEffect } from 'react';
 
 const Content = () => {
@@ -20,13 +20,7 @@ const [title, setTitle] = useState("This is a alert");
     <div>
 
 
-        
-<ReactJsAlert
-  status={status} // true or false
-  type={type} // success, warning, error, info
-  title={title}
-  Close={() => setStatus(false)}
-/>
+  
 
 
 <div className='cards h-52 w-56 shadow-2xl mx-auto my-10 hover:w-64  '>
