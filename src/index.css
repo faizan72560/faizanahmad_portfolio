@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("background.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  background-repeat: repeat-y;
+  
+  
+ }
+ .margin-right{
+  margin-right: 9rem;
+ }
+ .margin-top{
+  margin-top: 4rem;
+ }
