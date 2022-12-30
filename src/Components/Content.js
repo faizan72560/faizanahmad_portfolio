@@ -39,7 +39,7 @@ const [title, setTitle] = useState("This is a alert");
             <h1 className='text-3xl text-white my-8'>My Projects</h1>
 
         </div>
-    <div className='projects   flex md:flex-row flex-col items-center justify-between  my-5 md:my-0 my-2'>
+    <div className='projects   flex md:flex-row flex-col items-center flex-wrap justify-center '>
 
        <div className='cards h-52 w-64 mx-1 shadow-6xl hover:w-96 border-bl bg-gray-50 my-2'>
         <div className='flex justify-center'>
@@ -51,12 +51,20 @@ const [title, setTitle] = useState("This is a alert");
     <hr className='text-gray-900'/>
 <div className='flex flex-col items-center'>
 
+    <div className='flex flex-col gap-14 '>
 
 
+          <div className='text-center'>
         <h2 className='my-2'>Technology Used:</h2>
         <p>html,css,tailwind,react,nodejs</p>
 
-        <h2>link:</h2>
+          </div>
+
+
+        {/* <h2>link:</h2> */}
+       <a href='https://frontend-hotel-booking-roan.vercel.app/' className='bg-black text-white rounded-md text-xl my-2'>Go to Hotel Booking</a>
+    </div>
+
 </div>
 
        </div>
@@ -68,13 +76,17 @@ const [title, setTitle] = useState("This is a alert");
        <h1  className='text-xl '>Expense Tracker</h1>
         </div>
     <hr/>
-<div className='flex flex-col items-center'>
+<div className='flex flex-col items-center gap-14'>
+
+    <div className='flex flex-col items-center'>
 
 
 <h2 className='my-2'>Technology Used:</h2>
 <p>html,css,tailwind,react,nodejs</p>
-       <h2 className='my-1'>link:</h2>
-       <a href='https://faizan72560.github.io/Expense-Tracker/'>Go to Expense Tracker</a>
+       {/* <h2 className='my-1'></h2> */}
+
+    </div>
+       <a href='https://faizan72560.github.io/Expense-Tracker/' className='bg-black text-white rounded-md text-xl my-2'>Go to Expense Tracker</a>
 </div>
 
        </div>
@@ -83,16 +95,20 @@ const [title, setTitle] = useState("This is a alert");
        <div className='flex justify-center'>
 
         <h1  className='text-xl '>Ecommerce Website</h1>
+
        </div>
-
     <hr/>
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center gap-14'>
 
-
+   <div className='flex flex-col items-center'>
 
 <h2 className='my-2'>Technology Used:</h2>
-<p>html,css,tailwind,react,nodejs</p>
-        <h2>link:</h2>
+<p className='text-center'>html,css,tailwind,react,nodejs</p>
+        {/* <h2>link:</h2> */}
+
+   </div>
+       <a href='https://ecommerce-frontend-blond.vercel.app/' className='bg-black text-white rounded-md text-xl my-2'>Go to Ecommerce Website</a>
+
     </div>
 
        </div>
@@ -104,14 +120,43 @@ const [title, setTitle] = useState("This is a alert");
        </div>
 
     <hr/>
-<div className='flex flex-col items-center'>
+<div className='flex flex-col items-center gap-14'>
 
 
-
+ <div className='text-center'>
 
 <h2 className='my-2'>Technology Used:</h2>
 <p>html,css,tailwind,react,nodejs</p>
-        <h2>link:</h2>
+
+ </div>
+ <a href='https://blogwebsite-frontend.vercel.app/' className='bg-black text-white rounded-md text-xl my-2'>Go to Simple Blogwebsite</a>
+
+        {/* <h2>link:</h2> */}
+</div>
+
+       </div>
+
+
+       <div className='cards h-52 w-64 mx-1 shadow-6xl hover:w-96 border-bl bg-gray-50 my-2'>
+       <div className='flex justify-center'>
+
+        <h1  className='text-xl'>Cart app</h1>
+       </div>
+
+    <hr/>
+
+<div className='flex flex-col items-center gap-14'>
+
+<div className='text-center'>
+<h2 className='my-2'>Technology Used:</h2>
+<p>html,css,material ui,react</p>
+{/* <p>react</p> */}
+
+</div>
+
+<a href='https://myntra-mini.vercel.app/' className='bg-black text-white rounded-md text-xl my-2'>Go to Cart App</a>
+
+        {/* <h2>link:</h2> */}
 </div>
 
        </div>
@@ -124,12 +169,16 @@ const [title, setTitle] = useState("This is a alert");
 
     <hr/>
 
-<div className='flex flex-col items-center'>
+<div className='flex flex-col items-center gap-14'>
 
+<div className='text-center'>
 
 <h2 className='my-2'>Technology Used:</h2>
 <p>html,css,tailwind,react,nodejs</p>
-        <h2>link:</h2>
+</div>
+<a href='https://faizan72560.github.io/Weather-Forcasting/' className='bg-black text-white rounded-md text-xl my-2'>Go to Weather Forcasting</a>
+
+        {/* <h2>link:</h2> */}
 </div>
 
        </div>

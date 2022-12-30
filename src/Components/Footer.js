@@ -1,17 +1,26 @@
 import React from 'react'
-import { AiFillLinkedin } from "react-icons/ai";
+
+import facebook from './facebook.png'
+import twitter from './linkedin.png'
+import linkdin from './twitter.png'
+
+
 
 const Footer = () => {
   return (
-    <div className='bg-blue-900 h-20 w-screen'>
+    <footer className=' h-full w-full'>
+
+    
+    <div >
 
         <div className='flex justify-between'>
 
 
         <div className='flex flex-col'>
-            <h1 className='text-white'>Home</h1>
-            <h1 className='text-white'>Contact</h1>
-            <h1 className='text-white'>Projects</h1>
+          
+            <h1 className='text-white md:text-2xl md:my-1 my-2 font-serif'>Home</h1>
+            <h1 className='text-white md:text-2xl md:my-1 my-2 font-serif'>Contact</h1>
+            <h1 className='text-white md:text-2xl md:my-1 my-2 font-serif'>Projects</h1>
 
             
 
@@ -19,7 +28,24 @@ const Footer = () => {
         </div>
         <div>
 
-        <AiFillLinkedin type="message" style={{ fontSize: '16px', color: '#08c',width:'20rem' }} />
+          <div className='flex flex-col md:mx-2'>
+            <div className='flex my-1 gap-4'>
+              <h1 className='text-white md:text-2xl font-serif' >Follow me on</h1>
+              <img className='h-8 ' src={facebook}/>
+            </div>
+
+            <div className='flex my-1 gap-4'>
+              <h1 className='text-white md:text-2xl font-serif'>Follow me on</h1>
+              <img className='h-8 ' src={twitter}/>
+            </div>
+            <div className='flex my-1 gap-4'>
+              <h1  className='text-white md:text-2xl font-serif'>Follow me on</h1>
+              <img className='h-8 ' src={linkdin}/>
+            </div>
+
+          </div>
+
+        
         </div>
         </div>
 
@@ -27,6 +53,8 @@ const Footer = () => {
 
 
     </div>
+    </footer>
+
   )
 }
 
